@@ -8,7 +8,7 @@ const Home = () => (
     <div className="landing">
       <div className="home-row-1">
         <h1 className="home-title">
-          My name is Andrew Searcy and I love developement and design.
+          My name is Andrew Searcy, I love developement & design.
         </h1>
       </div>
       <div className='sec-3'>
@@ -18,8 +18,7 @@ const Home = () => (
         <h1 className="title">WORK.</h1>
         <p className='workBlurb'>
           As a designer and developer based in Tennessee, I believe in combining purposeful
-          graphic design and web developement to create an unforgetable user
-          experience.
+          graphic design and web developement to create an unforgetable experience for every user.
         </p>
       </div>
       <div class='pic-grid'> 

@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   margin: 70px 0px 70px 0px;
-  min-height: 60vh;
+  max-width: 100%;
   flex-direction: column;
 }
 
@@ -27,7 +27,8 @@
   margin-top: 15px;
 }
 .home-title {
-  max-width: 70vw;
+  max-width: 80vw;
+  height: auto;
   font-size: 2.5em;
   color: white;
 }
@@ -53,10 +54,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  max-width: 70vw;
+  max-width: 60vw;
 }
 .sec-3 {
   display: flex;
+  justify-content: center;
 }
 .title {
   font-size: 4em;
@@ -67,7 +69,6 @@
 }
 
 .workBlurb {
-  max-width: 40vw;
   text-align: center; 
   margin-top: 0;
 }
@@ -77,4 +78,20 @@
   justify-content: center;
   height: auto;
   max-width: 100%;
+}
+.scroll-icon {
+  position: absolute;
+  bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .scroll-icon {
+    opacity: 0;
+  }
+  .home-title {
+    font-size: 1.9em;
+  }
+  .sec-2 {
+    font-size: 75%;
+    max-width: 85vw;
+  }
 }
