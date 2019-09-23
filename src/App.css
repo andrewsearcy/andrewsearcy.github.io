@@ -13,7 +13,7 @@
   align-items: center;
   min-width: 95vw;
 }
-.home-row-1 {
+.landing-row-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,11 @@
   color: white;
 }
 .links-about {
+  color: white;
+}
+.links-about:hover {
   color: #e51578;
+  transition: 0.5s;
 }
 .links-home, .links-about {
   text-decoration: none;
@@ -50,19 +54,23 @@
   background: #282c34;
 }
 
-.sec-2 {
+.sec-3 {
   display: flex;
   align-items: center;
   flex-direction: column;
   max-width: 60vw;
 }
-.sec-3 {
+.sec-2 {
   display: flex;
   justify-content: center;
 }
 .title {
-  font-size: 4em;
-  margin-bottom: 0;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+#line {
+border-top: solid white 6px;
+width: 80px;
 }
 .App-link {
   color: #61dafb;
@@ -70,7 +78,7 @@
 
 .workBlurb {
   text-align: center; 
-  margin-top: 0;
+  margin-top: 50px;
 }
 .pic-grid {
   display: flex;
@@ -83,6 +91,27 @@
   position: absolute;
   bottom: 10px;
 }
+.bounce {
+  animation: bounce 2s;
+  animation-delay: 4s;
+  animation-iteration-count: 8;
+}
+@keyframes bounce {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-18px);
+  }
+  60% {
+    transform: translateY(-10px)
+  }
+}
+
 @media screen and (max-width: 800px) {
   .scroll-icon {
     opacity: 0;
@@ -90,8 +119,43 @@
   .home-title {
     font-size: 1.9em;
   }
-  .sec-2 {
+  .sec-3 {
     font-size: 75%;
     max-width: 85vw;
   }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: url('./images/BG2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer-title {
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.Sicons {
+  display: flex;
+  max-width: 2.5vw;
+  height: auto;
+  color: white;
+  margin: 15px;
+}
+.about-row-1 {
+  
 }

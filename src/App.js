@@ -10,12 +10,12 @@ function App () {
     <Router>
       <div className='header'>
         <div className='header-content'>
-        <Link to='/' className='links-home'>
-          <img className='header-logo' src={PortfolioLogo} alt='Home' />
-        </Link>
-        <Link to='/about' className='links-about'>
-          About
-        </Link>
+          <Link to='/' className='links-home'>
+            <img className='header-logo' src={PortfolioLogo} alt='Home' />
+          </Link>
+          <Link to='/about' className='links-about'>
+            About
+          </Link>
         </div>
       </div>
       <div>

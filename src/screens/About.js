@@ -1,8 +1,15 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 const About = () => (
   <div>
-    <h2>About</h2>
+    <div className='landing'>
+      <div className='sec-3'>
+        <h1 className='title'>ABOUT</h1>
+        <div id='line' />
+      </div>
+    </div>
+    <Footer></Footer>
   </div>
 );
 
