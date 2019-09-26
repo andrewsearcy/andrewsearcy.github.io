@@ -9,20 +9,20 @@ const Footer = () => (
     <div className='footer'>
       <div className='footer-col'>
         <div className='social-icons'>
-          <a href=''>
-            <img src={LIicon} className='Sicons' />
+          <a href='https://www.linkedin.com/in/andrew-searcy-45013333'>
+            <img src={LIicon} alt='LinkedIn' className='Sicons' />
           </a>
-          <a href=''>
-            <img src={GHicon} className='Sicons' />
+          <a href='https://www.github.com/andrewsearcy'>
+            <img src={GHicon} alt='GitHub' className='Sicons' />
           </a>
-          <a href=''>
-            <img src={IGicon} className='Sicons' />
+          <a href='https://www.instagram.com/andrewsearcy'>
+            <img src={IGicon} alt='Instagram' className='Sicons' />
           </a>
-          <a href=''>
-            <img src={FBicon} className='Sicons' />
+          <a href='https://facebook.com/andrew.searcy'>
+            <img src={FBicon} alt='Facebook' className='Sicons' />
           </a>
         </div>
-        <p className='footer-title'>Andrew Searcy ©2019</p>
+        <p className='footer-title'>Andrew Searcy ©2019 All Rights Reserved</p>
       </div>
     </div>
   </div>
