@@ -1,5 +1,4 @@
 import React from "react";
-// import BG2 from "../images/BG2.jpg";
 import WebsiteArrow from "../images/Website Arrow.png";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -9,8 +8,15 @@ import IMG2 from "../images/IMG2.jpg";
 import IMG3 from "../images/IMG3.jpg";
 import Fade from "react-reveal/Fade";
 
+const Name = props => (
+  <div>
+    <h2 className='name'>{props.name}</h2> 
+  </div>
+)
+
 const Home = () => (
   <div>
+  <Fade>
     <div className="home">
       <div className="overlay">
         <div className="landing-home">
@@ -25,13 +31,13 @@ const Home = () => (
         </div>
           <div className="landing-mid">
             <div className="landing-row-1">
-              <Fade top>
-                <h1 className="home-title">
-                  My name is <span className="name">Andrew Searcy</span> and I
-                  love software developement.
-                </h1>
+              <Fade top delay={350}>
+                <p className="home-title">My name is
+                  <Name name='Andrew Searcy.'/>
+                  I'm a developer.
+                </p>
               </Fade>
-              <Fade bottom>
+              <Fade bottom delay={350}>
                 <a className="scroll-icon">
                   <img className="bounce" src={WebsiteArrow} />
                 </a>
@@ -96,6 +102,7 @@ const Home = () => (
         </Fade>
       </div>
     </div>
+    </Fade>
     <Footer />
   </div>
 );

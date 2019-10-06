@@ -6,7 +6,6 @@
 .landing-about {
   display: flex;
   height: 150px;
-  /* justify-content: center; */
 }
 
 .home-header-content, .about-header-content {
@@ -24,9 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 70px 0px 70px 0px;
-  flex-direction: column;
-  max-width: 50vw;
+  max-width: 60vw;
 }
 
 .header-logo {
@@ -35,12 +32,14 @@
 }
 .home-title {
   height: auto;
-  font-size: 2.5em;
+  font-size: 2.2em;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
 }
 .name {
   color: #ca367e;
+  margin: 0;
+  padding: 0;
 }
 .links-about {
   color: white;
@@ -52,15 +51,14 @@
 .links-home, .links-about {
   text-decoration: none;
   padding: 0px 30px 0px 30px;
+   }
   
- }
 .home, .about {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  background: #282c34;
   font-family: 'Roboto', sans-serif;
 }
 .home {
@@ -202,6 +200,7 @@ display: flex;
   }
 }
 @media screen and (max-width: 800px) {
+
   .scroll-icon {
     opacity: 0;
   }
@@ -263,6 +262,40 @@ display: flex;
   align-items: center;
   max-width: 90vw;
   padding: 0 70px 70px 70px;
+}
+.sec-1 {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+  width: 100vw;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec-1-pic, .sec-1-block {
+  display: flex;
+  flex-direction: column; 
+  text-align: justify;
+  line-height: 23px;
+}
+.sec-1-block {
+  max-width: 40vw;
+  padding: 20px;
+}
+.sec-1-pic {
+  display: flex;
+  height: 250px;
+  width: 250px;
+}
+.sec-1-row-pic {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 30%;
+}
+.sec-1-about-text {
+  font-size: .8em;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .about-block-bg {
   width: 40px;
