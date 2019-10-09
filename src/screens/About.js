@@ -32,16 +32,15 @@ const About = () => (
                   <p className='sec-1-about-text'>
                     I am a Software Developer with abilities in both the back
                     end and front end of the application. My previous career as
-                    a designer and creative director lead me into this passion
-                    of building web applications. I love the design side,
+                    a designer and creative director has lead me into this passion
+                    of building web applications.  I love the design side,
                     however, I wasn’t satisfied with just being involved with
                     the visual part of the project but wanted to be able to
-                    create from the technical side as well. In this next phase
-                    of my career I want to combine my abilities to create
-                    visually appealing applications with the technical facets.
-                    My “perfect world“ company would allow me to work with a
-                    small team of (5-8) people that follow Agile best practices
-                    and continually learn and grow together as developers.
+                    create from the technical side as well.
+                  </p>
+                  <p className='sec-1-about-text'>I love what I do and my passion is growing everyday.  Be on the lookout
+                    for new designs/apps I will be posting either in my projects section or updates
+                    to this site!
                   </p>
                 </div>
               </div>

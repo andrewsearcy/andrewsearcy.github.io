@@ -61,7 +61,7 @@
   justify-content: center;
   align-items: center;
   max-width: 6000px;
-  padding-top: 100px;
+  padding-top: 200px;
   text-align: center;
 }
 
@@ -276,8 +276,9 @@ letter-spacing: -2px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100vw;
-  height: 150px;
+  /* height: 150px; */
   background: #282c34;
   font-family: 'Montserrat', 'Open Sans', sans-serif;
   font-weight: 300;
@@ -287,6 +288,7 @@ letter-spacing: -2px;
   color: lightgray;
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;;
 }
 .footer-col {
   display: flex;
@@ -296,6 +298,7 @@ letter-spacing: -2px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 80px;
 }
 
 .Sicons {
@@ -332,7 +335,7 @@ letter-spacing: -2px;
   padding: 50px;
 }
 .sec-1-block {
-  max-width: 40vw;
+  max-width: 600px;
   padding: 20px;
 }
 .sec-1-pic {
@@ -347,7 +350,7 @@ object-fit: cover;
 border-radius: 30%;
 }
 .sec-1-about-text {
-  font-size: .8em;
+  font-size: .7em;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: -1px;
 }
@@ -391,7 +394,6 @@ border-radius: 30%;
   margin: 10px;
   padding: 20px;
   border-radius: 10px;
-  /* border: solid .5px #dcdde2; */
   box-shadow: .6px .8px 10px .5px rgba(88, 88, 95, 0.25);
 }
 .titles {
@@ -403,4 +405,8 @@ border-radius: 30%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   letter-spacing: -2.2px;
+}
+.quote {
+  letter-spacing: -1px;
+  color: #28b3da;
 }

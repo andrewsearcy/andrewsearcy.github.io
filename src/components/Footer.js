@@ -7,6 +7,7 @@ import GHicon from '../images/GHicon.png'
 const Footer = () => (
   <footer>
     <div className='footer'>
+      <h2 className='quote'>Living life to give it.</h2>
       <div className='footer-col'>
         <div className='social-icons'>
           <a href='https://www.linkedin.com/in/andrew-searcy-45013333'>
@@ -22,7 +23,7 @@ const Footer = () => (
             <img src={FBicon} alt='Facebook' className='Sicons' />
           </a>
         </div>
-        <p className='footer-title'><p className='name'>Andrew Searcy</p> ©2019 All Rights Reserved</p>
+        <div className='footer-title'>Handcrafted by me © twentynineteen</div>
       </div>
     </div>
   </footer>
