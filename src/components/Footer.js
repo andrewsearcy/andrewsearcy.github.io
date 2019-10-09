@@ -5,7 +5,7 @@ import LIicon from '../images/LIicon.png'
 import GHicon from '../images/GHicon.png'
 
 const Footer = () => (
-  <div>
+  <footer>
     <div className='footer'>
       <div className='footer-col'>
         <div className='social-icons'>
@@ -22,10 +22,10 @@ const Footer = () => (
             <img src={FBicon} alt='Facebook' className='Sicons' />
           </a>
         </div>
-        <p className='footer-title'>Andrew Searcy ©2019 All Rights Reserved</p>
+        <p className='footer-title'><p className='name'>Andrew Searcy</p> ©2019 All Rights Reserved</p>
       </div>
     </div>
-  </div>
+  </footer>
 )
 
 export default Footer
