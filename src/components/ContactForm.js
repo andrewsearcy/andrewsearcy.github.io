@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios'
 
 class ContactForm extends React.Component {
   constructor (props) {
@@ -17,10 +18,15 @@ class ContactForm extends React.Component {
     this.setState({ [e.target.name]: e.target.value })
   }
 
-  handleSubmit = e => {
+  async handleSubmit(e) {
     e.preventDefault()
 
     const { name, email, message } = this.state
+    const form = await axios.post('/api/form', {
+      name,
+      email,
+      message,
+    })
   }
   render () {
     return (
@@ -49,10 +55,11 @@ class ContactForm extends React.Component {
             onChange={this.handleChange}
           />
         </div>
-        <input type="submit" value="Submit" />
+        <button type="submit" value="submit" >Submit</button>
       </form>
     )
   }
 }
-
 export default ContactForm
+
+

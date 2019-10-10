@@ -14,11 +14,13 @@ const Contact = props => (
           <div className='landing-mid'>
           <Titles title="We should chat." />
           </div>
-          <ContactForm />
-          <Footer />
         </div>
+        <section className='form-section'>
+        <ContactForm />
+        </section>
       </div>
     </Fade>
+    <Footer />
   </div>
 )
 

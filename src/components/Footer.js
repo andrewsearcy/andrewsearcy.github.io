@@ -3,10 +3,14 @@ import FBicon from '../images/FBicon.png'
 import IGicon from '../images/IGicon.png'
 import LIicon from '../images/LIicon.png'
 import GHicon from '../images/GHicon.png'
+import PortfolioSiteLogo from '../Logo/Portfolio Site Logo.png';
 
 const Footer = () => (
   <footer>
     <div className='footer'>
+      <img className='footer-logo' src={PortfolioSiteLogo}></img>
+      <p className='pre-quote'>I am all about one thing.</p>
+      <h2 className='quote'>Living life to give it.</h2>
       <div className='footer-col'>
         <div className='social-icons'>
           <a href='https://www.linkedin.com/in/andrew-searcy-45013333'>
@@ -22,7 +26,7 @@ const Footer = () => (
             <img src={FBicon} alt='Facebook' className='Sicons' />
           </a>
         </div>
-        <p className='footer-title'><p className='name'>Andrew Searcy</p> ©2019 All Rights Reserved</p>
+        <div className='footer-title'>Handcrafted by yours truly © twentynineteen</div>
       </div>
     </div>
   </footer>

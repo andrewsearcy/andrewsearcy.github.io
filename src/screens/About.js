@@ -18,7 +18,8 @@ const About = () => (
           <div className='about-mid'>
             <Titles title='A little about me.' />
             <section className='sec-1'>
-              <div>
+            <Fade left>
+              <div className = 'about-pic-col'>
                 <div className='sec-1-pic'>
                   <img
                     src={ProfilePic}
@@ -27,24 +28,31 @@ const About = () => (
                   />
                 </div>
               </div>
+              </Fade>
+              <Fade right>
               <div className='sec-1-block'>
                 <div className='sec-1-row-block'>
+                  <h1 className='name'>Andrew Searcy</h1>
+                  <h4 className='about-pic-text'>
+                    Software Developer & UX/UI Designer
+                  </h4>
                   <p className='sec-1-about-text'>
                     I am a Software Developer with abilities in both the back
                     end and front end of the application. My previous career as
-                    a designer and creative director lead me into this passion
-                    of building web applications. I love the design side,
-                    however, I wasn’t satisfied with just being involved with
-                    the visual part of the project but wanted to be able to
-                    create from the technical side as well. In this next phase
-                    of my career I want to combine my abilities to create
-                    visually appealing applications with the technical facets.
-                    My “perfect world“ company would allow me to work with a
-                    small team of (5-8) people that follow Agile best practices
-                    and continually learn and grow together as developers.
+                    a designer and creative director has lead me into this
+                    passion of building web applications. I love the design
+                    side, however, I wasn’t satisfied with just being involved
+                    with the visual part of the project but wanted to be able to
+                    create from the technical side as well.
+                  </p>
+                  <p className='sec-1-about-text'>
+                    I love what I do and my passion is growing everyday. Be on
+                    the lookout for new designs/apps I will be posting either in
+                    my projects section or updates to this site!
                   </p>
                 </div>
               </div>
+              </Fade>
             </section>
             <div className='sec-2-about'>
               <Fade delay={200}>
