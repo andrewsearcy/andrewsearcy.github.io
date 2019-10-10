@@ -44,8 +44,7 @@ const About = () => (
                     however, I wasn’t satisfied with just being involved with
                     the visual part of the project but wanted to be able to
                     create from the technical side as well.
-                  </p>
-                  <p className='sec-1-about-text'>I love what I do and my passion is growing everyday.  Be on the lookout
+                  </p><p className='sec-1-about-text'>I love what I do and my passion is growing everyday.  Be on the lookout
                     for new designs/apps I will be posting either in my projects section or updates
                     to this site!
                   </p>

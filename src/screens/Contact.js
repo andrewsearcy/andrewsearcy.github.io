@@ -3,7 +3,8 @@ import HeaderPages from '../components/Header-Pages'
 import Footer from '../components/Footer'
 import Titles from '../components/Titles'
 import Fade from 'react-reveal/Fade'
-import ContactForm from '../components/ContactForm'
+// import ContactForm from '../components/ContactForm'
+import FormikCloudForm from '../components/Formik';
 
 const Contact = props => (
   <div>
@@ -16,7 +17,7 @@ const Contact = props => (
           </div>
         </div>
         <section className='form-section'>
-        <ContactForm />
+          <FormikCloudForm/>
         </section>
       </div>
     </Fade>
