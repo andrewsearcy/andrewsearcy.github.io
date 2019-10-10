@@ -316,6 +316,7 @@ letter-spacing: -2px;
   font-size: .9em;
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;;
 }
 .footer-col {
   display: flex;
@@ -466,4 +467,8 @@ border-radius: 30%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   letter-spacing: -2.2px;
+}
+.quote {
+  letter-spacing: -1px;
+  color: #28b3da;
 }
