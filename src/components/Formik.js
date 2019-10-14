@@ -1,6 +1,5 @@
-import React from 'react';
-import { Formik, Field, Form } from 'formik';
-import { Redirect } from 'react-router-dom'
+import React from 'react'
+import { Formik, Field, Form } from 'formik'
 
 const FormikCloudForm = () => (
   <Formik
@@ -10,29 +9,29 @@ const FormikCloudForm = () => (
       message: ''
     }}
     onSubmit={values => {
-      fetch('https://api.formik.com/submit/portfolio-site-form/portfolio-site-form', {
-        method: 'POST',
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(values),
-      });
+      fetch(
+        'https://api.formik.com/submit/portfolio-site-form/we-should-chat',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(values)
+        }
+      )
     }}
     render={() => (
       <Form className='form'>
-        <label for="name"></label>
-        <Field name="name" className="input" />
-      
-        <label for="email"></label>
-        <Field name="email" className="input" />
+        <Field placeholder='Name' name='name' />
 
-        <label for="message" ></label>
-        <Field name="message" className="textarea"/>
-      
-        <button onClick='/' type="submit">Submit</button>
+        <Field placeholder='Email' name='email' />
+
+        <Field component='textarea' className='textarea' placeholder='Message' name='message' />
+
+        <button type='submit'>Submit</button>
       </Form>
     )}
   />
-);
+)
 
-export default FormikCloudForm;
+export default FormikCloudForm

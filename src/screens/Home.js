@@ -1,28 +1,29 @@
 import React from 'react'
 import WebsiteArrow from '../images/Website Arrow.png'
 import Footer from '../components/Footer'
-import HeaderHome from '../components/Header';
+import HeaderHome from '../components/Header'
 import { Link } from 'react-router-dom'
 import IMG1 from '../images/IMG1.jpg'
 import IMG2 from '../images/IMG2.jpg'
 import IMG3 from '../images/IMG3.jpg'
-import Fade from 'react-reveal/Fade';
-import Titles from '../components/Titles';
-import ScrollUpButton from '../components/ScrollUpButton';
-
+import Fade from 'react-reveal/Fade'
+import Titles from '../components/Titles'
+import ScrollUpButton from '../components/ScrollUpButton'
 
 const Home = () => (
   <div>
     <Fade>
       <div className='home'>
         <div className='overlay'>
-         <HeaderHome></HeaderHome>
+          <HeaderHome />
           <div className='landing-mid'>
             <div className='landing-row-1'>
               <Fade top delay={350}>
                 <span className='home-title'>
-                  Hi, my name is <span className='name'>Andrew Searcy</span>. 
-                  <div className='name-blurb'>I'm a Full Stack Software Developer from Tennessee.</div>
+                  Hi, my name is <span className='name'>Andrew Searcy</span>.
+                  <div className='name-blurb'>
+                    I'm a Full Stack Software Developer from Tennessee.
+                  </div>
                 </span>
               </Fade>
               <Fade bottom delay={350}>
@@ -35,12 +36,11 @@ const Home = () => (
         </div>
         <div className='sec-2'>
           <div className='sec-2-content'>
-            <Titles title="My recent work."></Titles>
+            <Titles title='My recent work.' />
             <Fade left>
               <p className='workBlurb'>
-                As a designer and developer based in Tennessee, I believe in
-                combining purposeful graphic design and web developement to
-                create an unforgetable experience for every user.
+                Here are a few of my most recent projects for you to check out.
+                There are more coming so make sure to keep checking.
               </p>
             </Fade>
           </div>
@@ -87,7 +87,7 @@ const Home = () => (
       </div>
     </Fade>
     <Footer />
-    <ScrollUpButton/>
+    <ScrollUpButton />
   </div>
 )
 

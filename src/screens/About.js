@@ -17,6 +17,13 @@ const About = () => (
           <HeaderPages />
           <div className='about-mid'>
             <Titles title='A little about me.' />
+            <section className='skills'>
+              <div className='skills-col'>
+                <h2>Front End Developer</h2>
+                <h2>Designer</h2>
+                <h2>Artist</h2>
+              </div>
+            </section>
             <section className='sec-1'>
             <Fade left>
               <div className = 'about-pic-col'>
@@ -44,7 +51,8 @@ const About = () => (
                     however, I wasn’t satisfied with just being involved with
                     the visual part of the project but wanted to be able to
                     create from the technical side as well.
-                  </p><p className='sec-1-about-text'>I love what I do and my passion is growing everyday.  Be on the lookout
+                  </p>
+                  <p className='sec-1-about-text'>I love what I do and my passion is growing everyday.  Be on the lookout
                     for new designs/apps I will be posting either in my projects section or updates
                     to this site!
                   </p>
