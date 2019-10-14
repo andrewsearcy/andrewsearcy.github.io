@@ -7,7 +7,7 @@
 }
 .header-links {
   display: flex;
-  font-size: .8em;
+  font-size: .7em;
   margin-right: 40px;
 }
 .header-logo {
@@ -306,6 +306,7 @@ letter-spacing: -2px;
   .sec-1 {
     flex-wrap: wrap;
     padding-bottom: 40px;
+    margin-top: 80px;
   }
  .sec-1-row-pic {
    margin-bottom: 0;
@@ -337,6 +338,10 @@ letter-spacing: -2px;
   }
   .about-text {
     width: 200px;
+  }
+  .skills {
+    flex-wrap: wrap;
+    margin: 0px 20px 0px 20px;
   }
 }
 .footer {
@@ -404,10 +409,24 @@ letter-spacing: -2px;
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  flex-direction: row;
 }
 .skills-col {
+  margin-top: 80px;
+  padding: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  border: solid lightgray .1px;
+  text-align: center;
+  width: 350px;
+}
+.skills-text {
+font-size: .9em;
+}
+.skills-text-color {
+  color: #28b3da;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -417,11 +436,14 @@ h2 {
   font-weight: 800; 
   color: #3a404b; 
 }
+ul {
+  list-style: none;
+}
 p {
   font-size: .8em;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: -1px;
-  line-height: 25px;
+  /* line-height: 25px; */
 }
 .sec-2-about {
   display: flex;
@@ -481,6 +503,11 @@ border-radius: 30%;
   font-size: .75em;
   margin-top: 15px;
   margin-bottom: 0px;
+}
+.sec-1-about-text {
+  font-size: .65em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
 }
 
 .about-block-bg {

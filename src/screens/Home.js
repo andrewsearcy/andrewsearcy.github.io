@@ -27,9 +27,9 @@ const Home = () => (
                 </span>
               </Fade>
               <Fade bottom delay={350}>
-                <a className='scroll-icon'>
-                  <img className='bounce' src={WebsiteArrow} />
-                </a>
+                <div className='scroll-icon'>
+                  <img className='bounce' alt="Scroll Down" src={WebsiteArrow} />
+                </div>
               </Fade>
             </div>
           </div>
@@ -47,22 +47,22 @@ const Home = () => (
           <div className='sec-2-work'>
             <Fade delay={200}>
               <div className='sec-2-col'>
-                <a className='work-block'>
-                  <img className='work-block-bg' src={IMG1} />
+                <a href="/#" className='work-block'>
+                  <img alt="Photography" className='work-block-bg' src={IMG1} />
                 </a>
               </div>
             </Fade>
             <Fade delay={400}>
               <div className='sec-2-col'>
-                <a className='work-block'>
-                  <img className='work-block-bg' src={IMG2} />
+                <a href="/#" className='work-block'>
+                  <img alt="Projects" className='work-block-bg' src={IMG2} />
                 </a>
               </div>
             </Fade>
             <Fade delay={600}>
               <div className='sec-2-col'>
-                <a className='work-block'>
-                  <img className='work-block-bg' src={IMG3} />
+                <a href="/#" className='work-block'>
+                  <img alt="Design" className='work-block-bg' src={IMG3} />
                 </a>
               </div>
             </Fade>

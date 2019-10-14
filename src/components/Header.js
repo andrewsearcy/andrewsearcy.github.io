@@ -13,7 +13,7 @@ const HeaderHome = props => (
       <Link to='/about' className='links-home-about'>
         About
       </Link>
-      <a href='https://drive.google.com/open?id=1os1Bx04C4GU4xzEHK4pwzi58oUsMmEVj' target='_blank' className='links-home-about'>
+      <a href='https://drive.google.com/open?id=1os1Bx04C4GU4xzEHK4pwzi58oUsMmEVj' target='_blank' rel="noopener noreferrer" className='links-home-about'>
         Resume
       </a>
       <Link to='/contact' className='links-home-contact'>

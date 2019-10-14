@@ -8,7 +8,7 @@ import PortfolioSiteLogo from '../Logo/Portfolio Site Logo.png';
 const Footer = () => (
   <footer>
     <div className='footer'>
-      <img className='footer-logo' src={PortfolioSiteLogo}></img>
+      <img className='footer-logo' alt="Logo" src={PortfolioSiteLogo}></img>
       <p className='pre-quote'>I am all about one thing.</p>
       <h2 className='quote'>Living life to give it.</h2>
       <div className='footer-col'>

@@ -13,7 +13,7 @@ const HeaderPages = props => (
       <Link to='/about' className='links-pages-about'>
         About
       </Link>
-      <a href='https://drive.google.com/open?id=1os1Bx04C4GU4xzEHK4pwzi58oUsMmEVj' target='_blank' className='links-pages-about'>
+      <a href='https://drive.google.com/open?id=1os1Bx04C4GU4xzEHK4pwzi58oUsMmEVj' rel="noopener noreferrer" target='_blank' className='links-pages-about'>
         Resume
       </a>
       <Link to='/contact' className='links-pages-contact'>
