@@ -9,6 +9,7 @@ import Fade from "react-reveal/Fade";
 import ProfilePic from "../images/ProfilePic.JPG";
 import Titles from "../components/Titles";
 import ScrollUpButton from "../components/ScrollUpButton";
+
 const About = () => (
   <div>
     <Fade>
@@ -17,20 +18,30 @@ const About = () => (
           <HeaderPages />
           <div className="about-mid">
             <Titles title="A little about me." />
+            <section className='quote-two'>
+              <div className='quote-text-two'>
+                <p>"true humility is not thinking less of yourself; it is thinking of yourself less."</p>
+              </div>
+              <div>
+                <p className="quote-text-ref">- C.S. Lewis</p>
+              </div>
+            </section>
+            <Fade bottom>
             <section className="skills">
-              <div className="skills-col">
+              <div className="skills-col-first">
                 <h2 className="skills-col-1">Developer</h2>
                 <div className="skills-text">
                   <p>
-                    I value building things that are simple yet clean and structured.    
+                    I value building things that are simple yet clean and
+                    structured.
                   </p>
                 </div>
-                <div className='skills-text'>
-                  <p className='skills-text-color'>Languages & Frameworks</p>
+                <div className="skills-text">
+                  <p className="skills-text-color">Languages & Frameworks</p>
                   <p>JavaScript, CSS3, Sass, ReactJS, HTML5</p>
                 </div>
                 <div className="skills-text">
-                <p className='skills-text-color'>Dev Tools</p>
+                  <p className="skills-text-color">Dev Tools</p>
                   <p>Visual Studio Code</p>
                   <p>Git</p>
                   <p>Travis CI</p>
@@ -39,50 +50,52 @@ const About = () => (
                   <p>NPM</p>
                 </div>
               </div>
-              <div className="skills-col">
+              <div className="skills-col-sec">
                 <h2 className="skills-col-1">Designer</h2>
                 <div className="skills-text">
-                  <p >
+                  <p>
                     I love the creative process and product that comes from
                     thoughtful design.
                   </p>
                 </div>
-                <div className='skills-text'>
-                  <p className='skills-text-color'>Design Products</p>
+                <div className="skills-text">
+                  <p className="skills-text-color">Design Products</p>
                   <p>UX, UI, Web, Apps, Logos, Print</p>
                 </div>
                 <div className="skills-text">
-                <p className='skills-text-color'>Design Tools</p>
-                  <p>HTML5</p>
-                  <p>CSS3</p>
-                  <p>JavaScript</p>
-                  <p>Sass</p>
-                  <p>Something</p>
-                  <p>HTML5</p>
+                  <p className="skills-text-color">Design Tools</p>
+                  <p>Adobe Creative Suite</p>
+                  <p>Sketch</p>
+                  <p>Over</p>
+                  <p>WordPress</p>
+                  <p>Illustrator</p>
+                  <p>InDesign</p>
                 </div>
               </div>
-              <div className="skills-col">
+              <div className="skills-col-third">
                 <h2 className="skills-col-1">Artist</h2>
                 <div className="skills-text">
                   <p>
-                    My passion for artistry takes different forms but each has its uniquness.
+                    My passion for artistry takes different forms but each has
+                    its uniquness.
                   </p>
                 </div>
-                <div className='skills-text'>
-                  <p className='skills-text-color'>Creations & Services</p>
+                <div className="skills-text">
+                  <p className="skills-text-color">Creations & Services</p>
                   <p>Photo, Video, and Audio Production</p>
                 </div>
                 <div className="skills-text">
-                  <p className='skills-text-color'>Art Tools</p>
-                  <p>HTML5</p>
-                  <p>CSS3</p>
-                  <p>JavaScript</p>
-                  <p>Sass</p>
-                  <p>Something</p>
-                  <p>HTML5</p>
+                  <p className="skills-text-color">Art Tools</p>
+                  <p>Ableton Live</p>
+                  <p>Reason</p>
+                  <p>After Affects</p>
+                  <p>Final Cut Pro</p>
+                  <p>Lightroom</p>
+                  <p>Premier Pro</p>
                 </div>
               </div>
             </section>
+            </Fade>
             <section className="sec-1">
               <Fade left>
                 <div className="about-pic-col">
